@@ -1,0 +1,47 @@
+package jp.co.internous.action;
+
+public class Test {
+	public static void main(String[] args){
+		Person taro = new Person();
+		taro.name="山田太郎";
+		taro.age=20;
+		taro.phoneNumber="090-1111-2222";
+		taro.address="東京";
+		System.out.print(taro.name);
+		System.out.print(taro.age);
+		System.out.print(taro.phoneNumber);
+		System.out.println(taro.address);
+
+		Person jiro = new Person();
+		jiro.name="木村次郎";
+		jiro.age=18;
+		jiro.phoneNumber="090-9974-2222";
+		jiro.address="千葉";
+		System.out.print(jiro.name);
+		System.out.print(jiro.age);
+		System.out.print(jiro.phoneNumber);
+		System.out.println(jiro.address);
+
+		Person hana = new Person();
+		hana.name="鈴木花子";
+		hana.age=16;
+		hana.phoneNumber="090-5555-2222";
+		hana.address="神奈川";
+		System.out.print(hana.name);
+		System.out.print(hana.age);
+		System.out.print(hana.phoneNumber);
+		System.out.println(hana.address);
+
+		Person yuki = new Person();
+		yuki.name="千代田結希";
+		yuki.age=18;
+		yuki.phoneNumber="090-24239-2222";
+		yuki.address="埼玉";
+		System.out.print(yuki.name);
+		System.out.print(yuki.age);
+		System.out.print(yuki.phoneNumber);
+		System.out.println(yuki.address);
+
+	}
+
+}

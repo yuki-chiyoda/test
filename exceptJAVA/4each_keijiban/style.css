@@ -1,0 +1,134 @@
+body{font-family:"Hiragino Kaku Gothic ProN","メイリオ",sans-serif}
+
+
+img.top{
+  width:250px;
+  height:50px;
+}
+
+header{
+  width:100%;
+  height:60px;
+  position:absolute;
+  top:70px;
+  left:0px;
+  background-color:black;
+}
+
+header ul{
+  float:left;
+  line-height:40px;
+}
+
+header ul li{
+  float:left;
+  list-style:none;
+  padding-left:70px;
+  color:white;
+  font-size:18px;
+}
+
+main{
+  clear:both;
+}
+
+.maincontainer{
+  width:100%;
+  margin:0 auto;
+  margin-top:80px;
+}
+
+.abc{
+  width:900px;
+  float:left;
+}
+
+.abc h1{
+  width:900px;
+  border-bottom:solid 3px black;
+  border-left:solid 5px black;
+  padding-left:10px;
+}
+  
+.form{
+  margin:10px;
+  width:900px;
+  background-color:#fbfbfb;
+  border:3px #ebebeb solid;
+  border-radius:10px;
+}
+
+.form h2{
+  border-left:4px red solid;
+  padding-left:10px;
+  margin-left:10px;
+}
+  
+form div{padding:15px;
+}
+
+.text, textarea{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color:#999;
+    background:#fff;
+}
+    
+.submit{
+  border:1px solid lightgray;
+  padding:4px 10px;
+  color:white;
+  background-color:#bfbfbf;
+  border-radius:5px;
+  border-bottom:solid 2px gray;
+}
+
+.kkk{
+  width:900px;
+  margin:10px;
+  background-color:#fbfbfb;
+  border:3px #ebebeb solid;
+  border-radius:10px;
+}
+
+.kkk h2{
+  border-bottom:3px #ebebeb solid;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.kkk p{
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.kkk .namae{
+  font-size:3px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:20px;
+}
+
+.xyz{
+  float:left;
+  margin-left:40px;
+}
+
+.xyz h2{
+  border-bottom:dotted 3px black;
+}
+
+.xyz li{
+  list-style:none;
+}
+
+
+footer{
+  clear:left;
+  width:100%;
+  height:60px;
+  color:white;
+  background-color:black;
+  text-align:center;
+  line-height:60px;
+}

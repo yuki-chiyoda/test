@@ -1,0 +1,15 @@
+drop database if exists sampledb;
+
+create database sampledb;
+use sampledb;
+
+create table samole_table(
+No int,
+name varchar(50),
+age int,
+Mail varchar(50),
+);
+
+insert into test_table values(1,"Yamada","21","xxx@yahoo.co.jp");
+insert into test_table values(1,"Sato","39","yyy@google.co.jp");
+insert into test_table values(1,"Harada","44","zzz@yahoo.co.jp");

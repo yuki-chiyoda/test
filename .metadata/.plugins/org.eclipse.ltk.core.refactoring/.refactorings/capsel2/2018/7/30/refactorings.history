@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="コンパイル単位名 &apos;jp.com.internous.action.Capsel.java&apos; を &apos;Capsule.java&apos; に変更&#x0D;&#x0A;- 元のプロジェクト: &apos;capsel2&apos;&#x0D;&#x0A;- オリジナル要素: &apos;jp.com.internous.action.Capsel.java&apos;&#x0D;&#x0A;- 名前変更済み要素: &apos;jp.com.internous.action.Capsule.java&apos;" description="コンパイル単位名 &apos;Capsel.java&apos; を変更します" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;jp.com.internous.action{Capsel.java" name="Capsule.java" references="false" stamp="1532504033625" version="1.0"/>
+</session>

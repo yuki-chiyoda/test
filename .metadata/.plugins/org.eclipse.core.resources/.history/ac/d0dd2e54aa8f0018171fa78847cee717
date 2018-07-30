@@ -1,0 +1,10 @@
+package testDB;
+
+public class Test {
+	public static void main(String[] aegs){
+		TestUserDAO dao = new TestUserDAO();
+
+		dao.select("taro","123");
+	}
+
+}
