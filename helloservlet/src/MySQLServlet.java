@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -51,16 +54,45 @@ public class MySQLServlet extends HttpServlet {
 			conn = DriverManager.getConnection(url, user, password);
 
 			Statement stmt = conn.createStatement();
-			S
-		}
+			String sql = "SELECT * FROM test_table";
+			ResultSet rs = stmt.executeQuery(sql);
+
+			while(rs.next()){
+				int userId = rs.getInt("user_id");
+				String userName = rs.getString("user_name");
+				String userPassword = rs.getString("password");
+
+				out.println("<p>");
+				out.println("ユーザーID"+ userId +",ユーザー名："+userName+",パスワード："+userPassword);
+
+				out.println("</p>");
+
+			}
+				rs.close();
+				stmt.close();
+
+
+		}catch(ClassNotFoundException e){
+			out.println("ClassNotFoundException:"+ e.getMessage());
+		}catch(SQLException e){
+			out.println("SQLException:"+ e.getMessage());
+		}catch(Exception e){
+			out.println("Exception:"+ e.getMessage());
+		}finally{
+			try{
+				if(conn !=null){
+					conn.close();
+				}
+			}catch(SQLException e){
+				out.println("SQLException:"+ e.getMessage());
+			}
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+		out.println("</body>");
+		out.println("</html>");
 	}
 
 }
