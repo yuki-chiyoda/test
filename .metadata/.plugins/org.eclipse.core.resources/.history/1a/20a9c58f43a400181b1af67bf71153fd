@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.internousdev.ecsite.dao;
+
+/**
+ * @author internousdev
+ *
+ */
+public class BuyItemDAO {
+
+}

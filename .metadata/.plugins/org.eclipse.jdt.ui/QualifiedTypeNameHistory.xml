@@ -4,11 +4,22 @@
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.sql.Array"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="java.sql.Statement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.sql.Driver"/>
 <fullyQualifiedTypeName name="java.sql.SQLClientInfoException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dto.HelloStrutsDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.util.DBConnector"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="com.internousdev.template.dao.BuyItemDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.template.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.template.dto.BuyItemDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.template.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.template.util.DateUtil"/>
+<fullyQualifiedTypeName name="com.internousdev.template.dao.BuyItemCompleteDAO"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
 </qualifiedTypeNameHistroy>
