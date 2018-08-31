@@ -1,0 +1,57 @@
+package com.internousdev.kanri.dao;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import com.internousdev.kanri.dto.AllItemDTO;
+import com.internousdev.kanri.util.DBConnector;
+
+public class AllItemDAO {
+	DBConnector dbConnector = new DBConnector();
+	Connection connection = dbConnector.getConnection();
+
+	public ArrayList<AllItemDTO> getAllItemInfo() throws SQLException{
+		ArrayList<AllItemDTO> allItemDTO = new ArrayList<AllItemDTO>();
+
+		String sql = "SELECT * from item_info_transaction ORDER BY id DESC";
+		try{
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			ResultSet resultSet = preparedStatement.executeQuery();
+
+			while(resultSet.next()){
+				AllItemDTO dto = new AllItemDTO();
+				dto.setId(resultSet.getString("id"));
+				dto.setItemName(resultSet.getString("item_name"));
+				dto.setItemPrice(resultSet.getString("item_price"));
+				dto.setItemStock(resultSet.getString("item_stock"));
+				dto.setInsert_date(resultSet.getString("insert_date"));
+				dto.setUpdate_date(resultSet.getString("update_date"));
+				allItemDTO.add(dto);
+			}
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			connection.close();
+		}
+		return allItemDTO;
+	}
+	public int allItemDelete() throws SQLException{
+		String sql = "DELETE FROM item_info_transaction";
+		int result = 0;
+
+		try{
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+
+			result = preparedStatement.executeUpdate();
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			connection.close();
+		}
+		return result;
+	}
+
+}
+

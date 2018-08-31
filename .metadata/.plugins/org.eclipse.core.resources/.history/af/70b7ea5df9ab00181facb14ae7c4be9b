@@ -1,0 +1,5 @@
+package com.internousdev.kanri.action;
+
+public class ItemAddComplete {
+
+}

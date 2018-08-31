@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="374" key="DIALOG_X_ORIGIN"/>
+		<item value="294" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="itemName" key="selection"/>
-		<item value="false" key="casesensitive"/>
+		<item value="update_date" key="selection"/>
+		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="body"/>
-			<item value="qtype"/>
-			<item value="name"/>
-			<item value="templete"/>
-			<item value="template"/>
-			<item value="HelloStrutsAction"/>
-			<item value="password"/>
-			<item value="next()"/>
+			<item value="payment"/>
+			<item value="totalCount"/>
+			<item value="totalPrice"/>
+			<item value="Logout"/>
+			<item value="com.internousdev.kanri.action"/>
+			<item value="ItemAddAction"/>
+			<item value="userName"/>
+			<item value="loginPassword"/>
 		</list>
 		<list key="replacehistory">
-			<item value="itemName"/>
+			<item value="update_date"/>
+			<item value="itemStock"/>
 			<item value="itemPrice"/>
+			<item value="itemName"/>
 			<item value="id"/>
 		</list>
 	</section>
@@ -27,7 +33,7 @@
 		<item value="377" key="DIALOG_WIDTH"/>
 		<item value="1|メイリオ|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|メイリオ" key="DIALOG_FONT_NAME"/>
 		<item value="411" key="DIALOG_HEIGHT"/>
-		<item value="605" key="DIALOG_X_ORIGIN"/>
-		<item value="222" key="DIALOG_Y_ORIGIN"/>
+		<item value="859" key="DIALOG_X_ORIGIN"/>
+		<item value="192" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

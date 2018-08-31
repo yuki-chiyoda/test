@@ -12,10 +12,10 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class MyPageAction extends ActionSupport implements SessionAware {
 	private Map<String, Object> session;
-	private MyPageDAO myPageDAO = new MyPageDAO();
-	private ArrayList<MyPageDTO> myPageList = new ArrayList<MyPageDTO>();
 	private String deleteFlg;
 	private String message;
+	private ArrayList<MyPageDTO> myPageList = new ArrayList<MyPageDTO>();
+	private MyPageDAO myPageDAO = new MyPageDAO();
 
 	public String execute() throws SQLException{
 

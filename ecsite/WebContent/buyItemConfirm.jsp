@@ -53,6 +53,8 @@ width:100%;
 height:80px;
 background-color:black;
 clear:both;
+position:absolute;
+bottom:0px;
 }
 
 </style>
@@ -73,7 +75,6 @@ function submitAction(url){
 <div id="main">
 
 <div id="top"><p>BuyItemConfirm</p></div>
-<div>
 
 <div>
 <s:form>
@@ -106,18 +107,15 @@ onclick="submitAction('HomeAction')" /></td>
 onclick="submitAction('BuyItemConfirmAction')" /></td>
 </tr>
 
-
-
 </table>
 </s:form>
 </div>
+
 </div>
 
 
 <div id="footer">
 <div id="pr"></div>
-</div>
-
 </div>
 
 </body>

@@ -1,0 +1,16 @@
+127.0.0.1 - - [23/Aug/2018:10:55:55 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:10:55:58 +0900] "GET /HelloServlet/ HTTP/1.1" 200 854
+127.0.0.1 - - [23/Aug/2018:11:13:18 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:13:21 +0900] "GET /ecsite/ HTTP/1.1" 200 1603
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:13:28 +0900] "POST /ecsite/HomeAction.action;jsessionid=217083721251FF093B4FB98CBE68E6BF HTTP/1.1" 200 2068
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:13:36 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 2270
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:13:38 +0900] "GET /ecsite/MyPageAction.action HTTP/1.1" 200 2428
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:13:41 +0900] "GET /ecsite/GoHomeAction.action HTTP/1.1" 200 1651
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:13:42 +0900] "POST /ecsite/HomeAction.action HTTP/1.1" 200 2270
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:13:43 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 2015
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:14:13 +0900] "GET /ecsite/ HTTP/1.1" 200 1651
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:14:15 +0900] "POST /ecsite/HomeAction.action HTTP/1.1" 200 2270
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:14:18 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 2015
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:16:50 +0900] "GET /ecsite/ HTTP/1.1" 200 1651
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:16:52 +0900] "POST /ecsite/HomeAction.action HTTP/1.1" 200 2270
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:11:16:54 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 2048

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="&apos;inquiry.jsp&apos; を &apos;WebContent&apos; に移動" description="&apos;inquiry.jsp&apos; を &apos;WebContent&apos; に移動" destination="WebContent" element1="WebContent/WEB-INF/inquiry.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1532916170289" updateReferences="true"/>
-</session>

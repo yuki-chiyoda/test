@@ -11,10 +11,6 @@ import java.sql.SQLException;
 import com.internousdev.ecsite.dto.BuyItemDTO;
 import com.internousdev.ecsite.util.DBConnector;
 
-/**
- * @author internousdev
- *
- */
 public class BuyItemDAO {
 	public BuyItemDTO getBuyItemInfo(){
 		DBConnector dbConnector = new DBConnector();

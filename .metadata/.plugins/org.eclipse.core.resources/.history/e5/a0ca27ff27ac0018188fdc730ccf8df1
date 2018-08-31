@@ -1,0 +1,5 @@
+package com.internousdev.kanri.dto;
+
+public class AllItemDTO {
+
+}

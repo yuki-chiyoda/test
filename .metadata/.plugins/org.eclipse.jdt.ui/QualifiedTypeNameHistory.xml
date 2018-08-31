@@ -20,6 +20,9 @@
 <fullyQualifiedTypeName name="com.internousdev.template.util.DateUtil"/>
 <fullyQualifiedTypeName name="com.internousdev.template.dao.BuyItemCompleteDAO"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="freemarker.template.utility.DateUtil"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,5 @@
+package com.internousdev.kanri.util;
+
+public class DBConnector {
+
+}
