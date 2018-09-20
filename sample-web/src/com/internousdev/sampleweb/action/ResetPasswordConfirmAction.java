@@ -29,6 +29,8 @@ public class ResetPasswordConfirmAction extends ActionSupport implements Session
 	public String execute() {
 		String result = ERROR;
 
+
+
 		InputChecker inputChecker = new InputChecker();
 
 		loginIdErrorMessageList = inputChecker.doCheck("ログインID", loginId, 1, 8, true, false, false, true, false, false, false);
@@ -51,7 +53,7 @@ public class ResetPasswordConfirmAction extends ActionSupport implements Session
 				session.put("concealedPassword", concealedPassword);
 				result = SUCCESS;
 			} else {
-				passwordIncorrectErrorMessageList.add("入力されたパスワードが異なります。");
+				passwordIncorrectErrorMessageList.add("入力されたパスワード、またはIDが異なります。");
 				session.put("passwordIncorrectErrorMessageList", passwordIncorrectErrorMessageList);
 			}
 		} else {

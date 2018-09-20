@@ -9,6 +9,7 @@ import com.internousdev.sampleweb.dto.UserInfoDTO;
 import com.internousdev.sampleweb.util.DBConnector;
 
 public class UserInfoDAO {
+
 	public int createUser(String familyName, String firstName, String familyNameKana,
 			String firstNameKana, String sex, String email, String loginId, String password) {
 		DBConnector dbConnector = new DBConnector();
