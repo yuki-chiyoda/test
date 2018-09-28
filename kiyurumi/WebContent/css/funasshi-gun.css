@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+body {
+  background-color: #000000;
+  background-image: url(../images/funasshi-gun.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}

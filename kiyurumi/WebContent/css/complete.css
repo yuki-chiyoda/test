@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+#contents{
+	position: absolute;
+	left:300px;
+	top: 200px;
+	margin-top:50px;
+}
+
+.success {
+	font-size : 30px;
+	width : 100%;
+	margin:auto;
+}
+
+.info {
+	font-size : 30px;
+	margin-top:0px;
+	text-align:center;
+}

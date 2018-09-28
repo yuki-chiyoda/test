@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+#contents{
+	position: absolute;
+	left: 250px;
+	top: 150px;
+	margin-top:50px;
+}
+.submit_btn_box{
+	margin-bottom: 200px;
+	margin-top: 10px;
+}
+
+#contents .submit_btn {
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 3%;
+}
+.txt{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 5px;
+}
+.vertical-list-table th,td{
+    line-height: 50px;
+    width: 200px;
+}
+.error {
+	font-size : 0.8em;
+	margin-left : 3%;
+	color: #D8000C;
+	background-color: #FFBABA;
+}
+.error-message {
+	color : red;
+}
+.info, .success, .warning, .error, .validation {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}

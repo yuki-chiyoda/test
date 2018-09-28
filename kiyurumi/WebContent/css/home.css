@@ -1,0 +1,339 @@
+
+@CHARSET "UTF-8";
+
+body, html {
+	padding : 0; /* 余白の削除 */
+	width : 100%;
+	height : 100%;
+}
+#nihon{
+	/* padding-top:9%;
+	padding-left:22%; */
+	top:25%;
+	bottom:50px;
+	left:50px;
+	right:50px;
+}
+#imagemap {
+	/* ↓画像を上下左右中央寄せにしてます　ちよ */
+	margin:0 auto;
+	position: fixed;
+	left:50px;
+	right:50px;
+	top:20%;
+	bottom:50px;
+	/* ↑画像を上下左右中央寄せにしてます */
+	background: transparent url(../images/japanmap.png) left top no-repeat;
+	width: 600px;
+	height: 400px;
+	z-index:2;
+}
+
+.hukidashi {
+  display: none;
+  position: fixed;
+  padding: 20px;
+  padding-bottom:70px;
+  background-color:RGB(204,255,204,0);
+  color: black;
+  font-size:18px;
+  text-align:center;
+  line-height:-100px;
+ top:25%;
+ left:25%;
+ width:50%;
+ height:60%;
+ z-index:1;
+   transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+a:hover + div.hukidashi {
+  display: block;
+  opacity: 1;
+}
+
+.moji{
+	transition: all  0.3s ease;
+position:absolute;
+	top:0;
+	left:0;
+	  border-radius:50px;
+  border: dashed 2px #ffc3c3;
+  background-color:#ffeeff;
+  padding:20px;
+  padding-top:30px;
+  width:180px;
+  height:50px;
+}
+
+.image{
+position:absolute;
+	bottom:0;
+	right:0;
+	zoom:1.3;
+}
+
+
+.imgimg{
+	position:absolute;
+	bottom:0;
+	left:0;
+	opacity:0;
+}
+
+.h_imgimg{
+  display: none;
+  position: absolute;
+  padding: 32px;
+  border-radius: 15px;
+  background-color:#afeeee;
+  opacity:1;
+  color: black;
+  font-size:18px;
+ top:35%;
+ left:23%;
+ width:225px;
+ height:px;
+
+}
+
+.h_imgimg:after {
+  position: absolute;
+  bottom: -20%;
+
+  left: -10%;
+  width: 0px;
+  height: 0px;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #afeeee;
+  border-width: 70px;
+  pointer-events: none;
+  content: " ";
+  transform: rotate(135deg);
+}
+
+div.imgimg:hover + a.h_imgimg {
+  display: block;
+}
+
+/* ★★ここから日本地図★★ */
+
+/* 共通部分 */
+
+
+#menu div {
+  position: relative;
+}
+
+
+
+ #imagemap li {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	list-style: none;
+	font-size: 14px;
+}
+#imagemap a {
+	position: absolute;
+}
+#imagemap a span {
+	display: none;
+}
+
+/* 北海道_東北 */
+#hokkaidotouhoku {
+	top: 0px;
+	left: 333px;
+}
+#hokkaidotouhoku a {
+	width: 150px;
+	height: 250px;
+}
+#hokkaidotouhoku a:hover {
+	background: url(../images/japanmap.png) -333px -400px no-repeat;
+	z-index:3;
+}
+
+/* 中部_近畿 */
+#tyubukinki {
+	top: 170px;
+	left: 252px;
+}
+#tyubukinki a {
+	width: 108px;
+	height: 155px;
+}
+#tyubukinki a:hover {
+	background: transparent url(../images/japanmap.png) -252px -1370px no-repeat;
+	z-index:3;
+}
+
+.h_tyubukinki {
+  display: none;
+  padding: 32px;
+  border-radius: 8px;
+  background-color:#afeeaf;
+  color: #fff;
+  margin-top:50px;
+  margin-left:-300px;
+
+}
+
+.h_tyubukinki:after {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #afeeaf;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+  transform: rotate(-45deg);
+}
+
+a:hover + p.h_tyubukinki {
+  display: block;
+}
+
+/* 中国_四国*/
+#tyugokushikokui {
+	top: 235px;
+	left: 170px;
+}
+#tyugokushikokui a {
+	width: 97px;
+	height: 95px;
+}
+#tyugokushikokui a:hover {
+	background: transparent url(../images/japanmap.png) -170px -1835px no-repeat;
+	z-index:3;
+}
+
+.h_tyugokushikokui {
+  display: none;
+  padding: 32px;
+  border-radius: 8px;
+  background-color:#451150;
+  color: #fff;
+  margin-top:50px;
+  margin-left:-300px;
+
+}
+
+.h_tyugokushikokui:after {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #451150;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+  transform: rotate(-45deg);
+}
+
+a:hover + p.h_tyugokushikokui {
+  display: block;
+}
+
+/* 関東 */
+
+/* 箱の場所 */
+#kanto {
+	top: 220px;
+	left: 338px;
+}
+/* 箱のサイズ */
+#kanto a {
+	width: 68px;
+	height: 100px;
+}
+/* 画像の位置 横px→箱の場所のLEFTと同じ　縦px→400・800（画像の位置）に箱の場所のTOP足した数 */
+#kanto a:hover {
+	background: transparent url(../images/japanmap.png) -338px -1020px no-repeat;
+	z-index:3;
+}
+
+.h_kanto {
+  display: none;
+  padding: 32px;
+  border-radius: 8px;
+  background-color:#eeafcf;
+  color: #fff;
+  margin-top:60px;
+  margin-left:30px;
+
+}
+
+.h_kanto:after {
+  position: absolute;
+  bottom: 60%;
+  left: 47%;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #eeafcf;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+  transform: rotate(0deg);
+}
+
+a:hover + p.h_kanto {
+  display: block;
+}
+
+/* 九州_沖縄 */
+#kyushuokinawa {
+	top: 265px;
+	left: 120px;
+}
+#kyushuokinawa a {
+	width: 95px;
+	height: 135px;
+
+}
+#kyushuokinawa a:hover {
+	background: transparent url(../images/japanmap.png) -120px -2265px no-repeat;
+	z-index:3;
+}
+
+.h_kyushuokinawa {
+  display: none;
+  padding: 32px;
+  border-radius: 8px;
+  background-color:#303030;
+  color: #fff;
+  margin-top:50px;
+  margin-left:-300px;
+
+}
+
+.h_kyushuokinawa:after {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  height: 0;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #303030;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+  transform: rotate(-45deg);
+}
+
+a:hover + p.h_kyushuokinawa {
+  display: block;
+}
+
+/*★★ここまで日本地図★★ */
